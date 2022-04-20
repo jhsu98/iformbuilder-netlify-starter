@@ -11,6 +11,6 @@
     "netlify-cli": "^10.0.0"
   },
   "dependencies": {
-    "zerion-js": "^1.0.1"
+    "zerion-js": "^1.0.3"
   }
 }

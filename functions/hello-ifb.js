@@ -4,12 +4,9 @@ exports.handler = async (event) => {
     const IFB_SERVER = process.env.IFB_SERVER;
     const IFB_CLIENT_KEY = process.env.IFB_CLIENT_KEY;
     const IFB_CLIENT_SECRET = process.env.IFB_CLIENT_SECRET;
-    const PARAMS = {
-        ifb_region: 'uk',
-        
-    };
+
     try {
-        const ifb = new zerionAPI.IFB(IFB_SERVER, IFB_CLIENT_KEY, IFB_CLIENT_SECRET, PARAMS);
+        const ifb = new zerionAPI.IFB(IFB_SERVER, IFB_CLIENT_KEY, IFB_CLIENT_SECRET);
         await ifb.connect();
 
         return {

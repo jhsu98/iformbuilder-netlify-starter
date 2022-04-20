@@ -1,0 +1,16 @@
+{
+  "name": "iformbuilder-netlify-starter",
+  "version": "1.0.0",
+  "description": "Starter project for iFormBuilder serverless functions",
+  "main": "index.js",
+  "repository": "https://github.com/jhsu98/iformbuilder-netlify-starter.git",
+  "author": "jhsu98 <jhsu98@gmail.com>",
+  "license": "UNLICENSE",
+  "private": false,
+  "devDependencies": {
+    "netlify-cli": "^10.0.0"
+  },
+  "dependencies": {
+    "zerion-js": "^1.0.1"
+  }
+}
